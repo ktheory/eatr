@@ -19,6 +19,7 @@
 		930FC18C17F6209100070F9C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 930FC17417F6209100070F9C /* UIKit.framework */; };
 		930FC19417F6209100070F9C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 930FC19217F6209100070F9C /* InfoPlist.strings */; };
 		930FC19617F6209100070F9C /* EatrTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 930FC19517F6209100070F9C /* EatrTests.m */; };
+		930FC1A017F6224500070F9C /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 930FC19F17F6224500070F9C /* Social.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		930FC19117F6209100070F9C /* EatrTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EatrTests-Info.plist"; sourceTree = "<group>"; };
 		930FC19317F6209100070F9C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		930FC19517F6209100070F9C /* EatrTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EatrTests.m; sourceTree = "<group>"; };
+		930FC19F17F6224500070F9C /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				930FC1A017F6224500070F9C /* Social.framework in Frameworks */,
 				930FC17317F6209000070F9C /* CoreGraphics.framework in Frameworks */,
 				930FC17517F6209100070F9C /* UIKit.framework in Frameworks */,
 				930FC17117F6209000070F9C /* Foundation.framework in Frameworks */,
@@ -96,6 +99,7 @@
 		930FC16F17F6209000070F9C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				930FC19F17F6224500070F9C /* Social.framework */,
 				930FC17017F6209000070F9C /* Foundation.framework */,
 				930FC17217F6209000070F9C /* CoreGraphics.framework */,
 				930FC17417F6209100070F9C /* UIKit.framework */,
