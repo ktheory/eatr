@@ -85,7 +85,9 @@
 				930FC16F17F6209000070F9C /* Frameworks */,
 				930FC16E17F6209000070F9C /* Products */,
 			);
+			indentWidth = 2;
 			sourceTree = "<group>";
+			tabWidth = 2;
 		};
 		930FC16E17F6209000070F9C /* Products */ = {
 			isa = PBXGroup;
